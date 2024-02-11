@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "428A1E1F897E02E8", title: "Primary Quests" }
+		{ id: "3B5C83FCB565F8F8", title: "Extra Quests" }
+	]
+}

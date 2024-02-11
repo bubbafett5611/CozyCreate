@@ -1,0 +1,320 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quality_of_life"
+	group: "3B5C83FCB565F8F8"
+	icon: "buildinggadgets2:gadget_building"
+	id: "65ED6DF985A57900"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "buildinggadgets2:gadget_building"
+			id: "29752A4C30A082F4"
+			rewards: [
+				{
+					id: "667C8BE5D98718C5"
+					item: "buildinggadgets2:template_manager"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "029B47FF2111561D"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			subtitle: "Build a full set of Direwolf20's Building Gadgets!"
+			tasks: [
+				{
+					id: "176F4ECC8B775B8E"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "2D379DC7A22FC0A6"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "338808D478509D09"
+					item: {
+						Count: 1b
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1DEC8E6458D22F1F"
+					item: {
+						Count: 1b
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50A6FCBE24CF8241"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			title: "Building Gadgets!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["A Temporal Pouch is like a \"Time in a Bottle\" bottle, it stores time in it equal to the time it spends in your inventory. You can then use it on a block to speed it up!"]
+			id: "2DAE4307D7C05489"
+			rewards: [{
+				command: "/gag give_time @p 12000"
+				elevate_perms: true
+				id: "4468692CF4FCF324"
+				silent: true
+				type: "command"
+			}]
+			subtitle: "Make a Temporal Pouch!"
+			tasks: [{
+				id: "5EA8E53724D5B8AF"
+				item: {
+					Count: 1b
+					id: "gag:time_sand_pouch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Time in a...bag?"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Tool Belts can store tools in a radial menu that you can access via a configurable keybind!"]
+			id: "7ED3B65CB9BDD50F"
+			rewards: [{
+				count: 2
+				id: "77A1AD5627E200F1"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			subtitle: "Make a Tool Belt!"
+			tasks: [{
+				id: "4D57AC38587BCAB6"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			title: "Fashion Statement!"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Certain blocks like dirt paths increase your speed while you walk on them!"]
+			icon: "minecraft:dirt_path"
+			id: "068AD143115E880E"
+			rewards: [{
+				id: "2578B819CE61CB1D"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gotta go fast!"
+			tasks: [{
+				id: "374C28D4BF9CD612"
+				title: "Block Runner!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Armor Stands and Straw Statues can be posed by crouching and right clicking them! Bring your builds to life!"]
+			icon: "strawstatues:straw_statue"
+			id: "5D879FC95E6042F0"
+			rewards: [{
+				id: "2B1139CB65764C22"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "If I only had a brain!"
+			tasks: [
+				{
+					id: "6A8BE7CC4D0C42AA"
+					item: "strawstatues:straw_statue"
+					type: "item"
+				}
+				{
+					id: "3FA3935B87CB0AF5"
+					item: "minecraft:armor_stand"
+					type: "item"
+				}
+			]
+			title: "Statues!"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["DimStorage adds channel based chest and tanks that can be connected together and transfer items and fluids over an infinite range!"]
+			icon: "dimstorage:dimensional_chest"
+			id: "7E96329A68C1DEB0"
+			rewards: [{
+				id: "576820BFCAD80E65"
+				item: "dimstorage:dimensional_tablet"
+				type: "item"
+			}]
+			subtitle: "Electronic Ender Storage :)"
+			tasks: [
+				{
+					id: "7ACC3AADCC4AFD30"
+					item: "dimstorage:dimensional_chest"
+					type: "item"
+				}
+				{
+					id: "01691CA491CEA5A3"
+					item: "dimstorage:dimensional_tank"
+					type: "item"
+				}
+			]
+			title: "DimStorage"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["This item allows you to prevent the spawning of wondering traders around your base!"]
+			id: "15B2FD2E00DF9CBD"
+			rewards: [{
+				id: "28687C74E98E67ED"
+				item: "gag:sacred_salt"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "For when you have enough leads."
+			tasks: [{
+				id: "7014615078411383"
+				item: "gag:no_solicitors"
+				type: "item"
+			}]
+			title: "Wonderer No More!"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Travel to other dimensions through paintings!"]
+			icon: "dimpaintings:nether_painting"
+			id: "0710C57EC227A19B"
+			subtitle: "It must be magic!"
+			tasks: [
+				{
+					id: "346AE3A76516BB33"
+					item: "dimpaintings:overworld_painting"
+					type: "item"
+				}
+				{
+					id: "4DDB6C24E45B7A65"
+					item: "dimpaintings:nether_painting"
+					type: "item"
+				}
+				{
+					id: "411E406FCF468523"
+					item: "dimpaintings:end_painting"
+					type: "item"
+				}
+			]
+			title: "Travel by Paintings"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["This items uses redstone from your inventory and allows you to draw redstone on walls!"]
+			id: "4B8D5C9AA8D26EBF"
+			rewards: [{
+				count: 2
+				id: "1D9A2BA8AEB121A5"
+				item: "minecraft:redstone_block"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Draw with redstone!"
+			tasks: [{
+				id: "2C8B5A9DEB10D70B"
+				item: "redstonepen:quill"
+				type: "item"
+			}]
+			title: "Better Redstone!"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["This item allows you capture animals! Farming just got easier!"]
+			id: "3F204AE5A93BEF78"
+			rewards: [{
+				id: "6FE4C6E00E143C1E"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			subtitle: "Be nice to your Pals!"
+			tasks: [{
+				id: "44A14C69B6CE65F9"
+				item: "moblassos:diamond_lasso"
+				type: "item"
+			}]
+			title: "Catching Animals!"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "49B406E791B0169C"
+			rewards: [{
+				id: "2684F129796729F1"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			subtitle: "Float like a butterstick"
+			tasks: [{
+				id: "60AE6D895266BE66"
+				item: {
+					Count: 1b
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "1C8E0D0FCE0160FD"
+			rewards: [{
+				id: "5C43B7038D2FE036"
+				item: {
+					Count: 1b
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Just remember to turn it off around your friends!"
+			tasks: [{
+				id: "03BE9DF2CB61B5C5"
+				item: {
+					Count: 1b
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Pulling Items!"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Quality of Life"
+}

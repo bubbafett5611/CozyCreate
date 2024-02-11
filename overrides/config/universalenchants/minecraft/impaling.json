@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "apotheosis:other_tome",
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe"
+  ],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite",
+    "apotheosis:bane_of_illagers"
+  ]
+}

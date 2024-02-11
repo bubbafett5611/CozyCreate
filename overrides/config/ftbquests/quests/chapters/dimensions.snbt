@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: "3B5C83FCB565F8F8"
+	icon: "aether:aether_portal_frame"
+	id: "5068D97AEEBBF3EB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "78923A313184EEE2"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "4888F440632ED5D1"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4243FA2638487396"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "557FD1344F6D640B"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "0A7C0AD5D810B522"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "2810A492076C5AD7"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "0C78AE22B3159B7F"
+			tasks: [{
+				dimension: "jamd:mining"
+				icon: "jamd:portal_block"
+				id: "38086E72B1F400A1"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "407371515A813DD3"
+			tasks: [{
+				dimension: "jamd:end"
+				icon: "jamd:end_portal"
+				id: "21368716D7DDD653"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "0817EF220D4F81CE"
+			tasks: [{
+				dimension: "jamd:nether"
+				icon: "jamd:nether_portal"
+				id: "354FFB6C24E4CE16"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "25C398834A500FEC"
+			tasks: [{
+				dimension: "javd:void"
+				icon: "javd:portal_block"
+				id: "37E17DE9C3874B75"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Dimensions"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "minecraft:shears",
+    "apotheosis:pickaxe_tome",
+    "botania:manasteel_shears",
+    "botania:elementium_shears",
+    "mysticalagriculture:inferium_shears",
+    "mysticalagriculture:prudentium_shears",
+    "mysticalagriculture:tertium_shears",
+    "mysticalagriculture:imperium_shears",
+    "mysticalagriculture:supremium_shears",
+    "mysticalagriculture:awakened_supremium_shears",
+    "quark:pickarang",
+    "quark:flamerang"
+  ],
+  "incompatible": [
+    "apotheosis:miners_fervor",
+    "minecraft:piercing"
+  ]
+}

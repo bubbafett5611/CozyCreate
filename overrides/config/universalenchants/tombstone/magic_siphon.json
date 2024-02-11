@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "apotheosis:other_tome",
+    "farmersdelight:skillet"
+  ],
+  "incompatible": [
+    "tombstone:plague_bringer"
+  ]
+}

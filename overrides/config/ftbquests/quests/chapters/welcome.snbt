@@ -1,0 +1,614 @@
+{
+	autofocus_id: "6B4C3C6E412757D3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "428A1E1F897E02E8"
+	icon: {
+		Count: 1b
+		id: "minecraft:wooden_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6FC0E33F90C54070"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Hello and welcome! This modpack is focused around a wonderful tech mod called Create! Have some useful items to get you started!"]
+			hide_dependency_lines: false
+			id: "6B4C3C6E412757D3"
+			rewards: [
+				{
+					id: "1ED9FACAC6C4F1E8"
+					item: {
+						Count: 1b
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							contentsUuid: [I;
+								428361398
+								76303193
+								-1636007149
+								1161744923
+							]
+							inventorySlots: 27
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A12E10A639C7963"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "79D791F933413E71"
+					item: "croptopia:blt"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Click here to get started!"
+			tasks: [{
+				id: "4DC2870DAD901235"
+				title: "Getting Started!"
+				type: "checkmark"
+			}]
+			title: "Welcome!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B4C3C6E412757D3"]
+			icon: "minecraft:oak_log"
+			id: "7CFAB3378E2D9EAB"
+			rewards: [
+				{
+					id: "65AAF7DE3A025FE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C233AE7FF866C45"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Go chop some trees!"
+			tasks: [{
+				id: "67938600E2CEAE6D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Get Wood"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4D9F566C51A0B673"
+				"7CFAB3378E2D9EAB"
+			]
+			icon: "minecraft:red_bed"
+			id: "14A0078D7DE5BD93"
+			rewards: [{
+				id: "7ECC2791C5A3A5E5"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			subtitle: "Craft a bed!"
+			tasks: [{
+				id: "179002DEC9474323"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sleeping the Monsters Away!"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CFAB3378E2D9EAB"]
+			icon: "minecraft:white_wool"
+			id: "4D9F566C51A0B673"
+			rewards: [{
+				id: "577795DCA3B87126"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Collect at least 3 wool."
+			tasks: [{
+				count: 3L
+				id: "339F47EB7B949787"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				type: "item"
+			}]
+			title: "Wool Collector"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CFAB3378E2D9EAB"]
+			id: "4C5D011FF4471E8C"
+			rewards: [{
+				count: 16
+				id: "001B7EE8E4E5DD98"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "Collect some cobblestone!"
+			tasks: [{
+				count: 8L
+				icon: "minecraft:cobblestone"
+				id: "7D7D4D4FB64E0482"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Stone"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C5D011FF4471E8C"]
+			id: "39BDB2CB12A5D523"
+			rewards: [
+				{
+					id: "7A8AFF78504F8269"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ACF1D3128794B32"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Begin mining down!"
+			tasks: [{
+				id: "4C37294A9F3F8DF6"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Start Mining!"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39BDB2CB12A5D523"]
+			id: "4356DBD2FCB732DA"
+			optional: true
+			rewards: [
+				{
+					id: "364AFA6139E15280"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "39DE96147C9849F9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:iron_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "52A562D20ED799FA"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["39BDB2CB12A5D523"]
+			id: "11907CA4AE8853FE"
+			optional: true
+			rewards: [
+				{
+					id: "13945E69EC3CE568"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5363B94A960AAC1D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:gold_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0EFD793759A9707C"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["39BDB2CB12A5D523"]
+			id: "3D6636B8683C385E"
+			optional: true
+			rewards: [
+				{
+					id: "40F69883B35C7B27"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1671957B3547A437"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:copper_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "7390F4A78448B01E"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["39BDB2CB12A5D523"]
+			id: "10AE6AC8664EDA16"
+			optional: true
+			rewards: [
+				{
+					id: "5093946DFF2AC6E4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2384CACC85CEF225"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:zinc_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "31FDEA874F104878"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["39BDB2CB12A5D523"]
+			id: "7D4557320F2C990B"
+			rewards: [
+				{
+					count: 3
+					id: "10BCCB2CC793932B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1909F7154E8FF51C"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			subtitle: "Get an Iron Pickaxe"
+			tasks: [{
+				id: "47C7715C7EF44D75"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better Mining :)"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7D4557320F2C990B"]
+			id: "5109EA792CC23CED"
+			optional: true
+			rewards: [
+				{
+					id: "6795D66A403966D7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1D94DDF93906D9EB"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:redstone_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5167E5690ACDEC5D"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7D4557320F2C990B"]
+			id: "25EC9DE79AB4D6DE"
+			optional: true
+			rewards: [
+				{
+					id: "0B223BB1A7CF132A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "01E511365160CB24"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:emerald_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "2F53662ED741A57C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7D4557320F2C990B"]
+			id: "45CCB6D309D0445D"
+			optional: true
+			rewards: [
+				{
+					id: "0D2E70040E12578E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4BF22C6AB98DA6A3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "35525D6CDE719A87"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["68AB1DD9947A39CE"]
+			id: "2B625C9A9CCC6F70"
+			optional: true
+			rewards: [
+				{
+					id: "73317C0F75A98B07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4FB518701E3EBBFE"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "7B841EC786F9D8EE"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7D4557320F2C990B"]
+			id: "68AB1DD9947A39CE"
+			rewards: [
+				{
+					count: 3
+					id: "4F7048E4B9A79C5E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "38F81E9BC362D574"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			subtitle: "This baby can mine for days!"
+			tasks: [{
+				id: "1BB268D25AA78C34"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ol' Faithful!"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["68AB1DD9947A39CE"]
+			id: "1DE0EBE15060345B"
+			optional: true
+			rewards: [
+				{
+					id: "2FF8637E03D119E4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6B5C3287359BDDC3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:netherite_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0DF7907CCC231D05"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "Road to Netherite!"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["68AB1DD9947A39CE"]
+			id: "72428D49BE37CDB7"
+			optional: true
+			rewards: [
+				{
+					id: "1CA85110D71F9BBD"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "576BA7A29CED4FF9"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "Does this mean I'm mining with a stone pick again?"
+			tasks: [{
+				id: "43A9D3DC9AB9E966"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Was it worth it?"
+			x: 0.0d
+			y: 13.5d
+		}
+	]
+	subtitle: ["Take your first steps!"]
+	title: "First Steps!"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "apotheosis:pickaxe_tome",
+    "quark:pickarang",
+    "quark:flamerang",
+    "buildinggadgets2:gadget_exchanging"
+  ],
+  "incompatible": [
+    "minecraft:looting",
+    "minecraft:fortune",
+    "minecraft:luck_of_the_sea"
+  ]
+}

@@ -1,0 +1,10 @@
+
+[waterframes]
+
+	#Overrides all configuration from current server. helpfully for custom changes
+	[waterframes.serverOverride]
+		#Toggle the option
+		enable = false
+		overrideUseVideoLan = true
+		overrideKeepsRendering = true
+
