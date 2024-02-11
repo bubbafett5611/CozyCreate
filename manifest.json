@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "(DEV) Cozy Create - Create Focused Adventure",
+  "name": "Cozy Create - Create Focused Adventure",
   "version": "0.1.6",
   "author": "Bubbafett5611",
   "files": [
@@ -135,6 +135,11 @@
       "required": true
     },
     {
+      "projectID": 291936,
+      "fileID": 5074609,
+      "required": true
+    },
+    {
       "projectID": 659674,
       "fileID": 4763056,
       "required": true
@@ -200,11 +205,6 @@
       "required": true
     },
     {
-      "projectID": 857970,
-      "fileID": 4613436,
-      "required": true
-    },
-    {
       "projectID": 541584,
       "fileID": 4665757,
       "required": true
@@ -245,11 +245,6 @@
       "required": true
     },
     {
-      "projectID": 833926,
-      "fileID": 4920407,
-      "required": true
-    },
-    {
       "projectID": 521480,
       "fileID": 5021021,
       "required": true
@@ -272,11 +267,6 @@
     {
       "projectID": 411357,
       "fileID": 5086384,
-      "required": true
-    },
-    {
-      "projectID": 618511,
-      "fileID": 4948244,
       "required": true
     },
     {
@@ -355,11 +345,6 @@
       "required": true
     },
     {
-      "projectID": 682565,
-      "fileID": 4817720,
-      "required": true
-    },
-    {
       "projectID": 317780,
       "fileID": 5073804,
       "required": true
@@ -380,11 +365,6 @@
       "required": true
     },
     {
-      "projectID": 864875,
-      "fileID": 4920497,
-      "required": true
-    },
-    {
       "projectID": 526854,
       "fileID": 4631193,
       "required": true
@@ -397,6 +377,11 @@
     {
       "projectID": 352039,
       "fileID": 5078226,
+      "required": true
+    },
+    {
+      "projectID": 658587,
+      "fileID": 4587214,
       "required": true
     },
     {
@@ -570,6 +555,11 @@
       "required": true
     },
     {
+      "projectID": 855414,
+      "fileID": 5061897,
+      "required": true
+    },
+    {
       "projectID": 688768,
       "fileID": 4962850,
       "required": true
@@ -715,11 +705,6 @@
       "required": true
     },
     {
-      "projectID": 641627,
-      "fileID": 4738586,
-      "required": true
-    },
-    {
       "projectID": 475117,
       "fileID": 4711435,
       "required": true
@@ -766,7 +751,7 @@
     },
     {
       "projectID": 549225,
-      "fileID": 4718251,
+      "fileID": 5098255,
       "required": true
     },
     {
@@ -1005,11 +990,6 @@
       "required": true
     },
     {
-      "projectID": 832870,
-      "fileID": 4920458,
-      "required": true
-    },
-    {
       "projectID": 438116,
       "fileID": 4848151,
       "required": true
@@ -1026,7 +1006,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 5075373,
+      "fileID": 5097848,
       "required": true
     },
     {
@@ -1142,6 +1122,11 @@
     {
       "projectID": 580681,
       "fileID": 4664264,
+      "required": true
+    },
+    {
+      "projectID": 416089,
+      "fileID": 4961385,
       "required": true
     },
     {
@@ -1376,7 +1361,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 4913663,
+      "fileID": 5098182,
       "required": true
     },
     {
